@@ -10,6 +10,9 @@ url("fonts/VarelaRound-Regular.ttf") format("opentype"),
 	padding: 0px;
 
 }
+a{
+	text-decoration: none;
+}
 .clear{
 	clear: both;
 }
@@ -104,7 +107,7 @@ body{
 .icon{
 	margin: 20px;
 }
-.icon img{
+.icon a{
 	margin-right: 20px;
 }
 .icon img:last-child{
