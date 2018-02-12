@@ -1,0 +1,134 @@
+@font-face {
+font-family: "VarelaRound";
+src: url("fonts/VarelaRound-Regular.ttf");
+src: 
+url("fonts/VarelaRound-Regular.ttf") format("woff"),
+url("fonts/VarelaRound-Regular.ttf") format("opentype"),
+}
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.clear{
+	clear: both;
+}
+body{
+	width: 536px;
+	height: 820px;
+	margin: auto;
+	font-family: VarelaRound;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	margin-top: 200px;
+	position: relative;
+}
+.shadow img{
+	position: absolute;
+	z-index: -1;
+}
+.top{
+	height: 90px;
+	background-color: white;
+}
+.top .circle{
+	width: 50px;
+	height: 50px;
+	background-color: #2a2a2a;
+	border-radius: 25px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.right{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.id{
+	float: left;
+	margin-top: 20px;
+}
+.name{
+	font-weight: bold;
+	color: #2a2a2a;
+	font-size: 17px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+.addr{
+	color: #9f9f9f;
+	font-size: 12px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+.follow{
+	float: right;
+	font-size: 15px;
+	margin-top: 30px;
+	width: 120px;
+	margin-right: 20px;
+	border: 2px solid #42b2fc;
+	border-radius: 4px;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	color: #42b2fc;
+}
+.more{
+	float: right;
+	margin-top: 30.5px;
+	margin-right: 20px;
+}
+.mid{
+	height: 535px;
+	background-color: #d9d8d8;
+	display: flex;
+	align-items: center;
+}
+.mid img{
+	margin: auto;
+}
+.icon{
+	margin: 20px;
+}
+.icon img{
+	margin-right: 20px;
+}
+.icon img:last-child{
+	margin-right: 0px;
+}
+.icon .social{
+	float: right;
+}
+.likes{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.likes img{
+	display: inline;
+}
+.likes .like{
+	display: inline;
+	font-weight: bold;
+}
+.tags .name{
+	margin-left: 20px;
+	margin-top: 15px;
+	display: inline;
+}
+.tag{
+	display: inline;
+	margin-left: 30px;
+	color: #507fbe;
+	margin-top: 30px;
+}
